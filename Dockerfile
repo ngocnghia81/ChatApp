@@ -5,7 +5,7 @@ RUN mvn clean package -DskipTests
 
 FROM openjdk:17-jdk-slim
 
-COPY --from=build /target/likeSide-hotel-1.0.jar likeSide-hotel-1.0.jar
+COPY --from=build /target/websocket-0.0.1-SNAPSHOT.jar websocket-0.0.1-SNAPSHOT.jar
 
 ENV PORT=9192
 
