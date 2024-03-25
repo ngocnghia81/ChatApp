@@ -11,4 +11,4 @@ ENV PORT=9192
 
 EXPOSE $PORT
 
-CMD ["java", "-jar", "likeSide-hotel-1.0.jar"]
+CMD ["java", "-jar", "websocket-0.0.1-SNAPSHOT.jar"]
