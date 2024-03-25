@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: websocket
+  datasource:
+    url: jdbc:postgresql://dpg-co0k0dol5elc738odc80-a.singapore-postgres.render.com/websocket_28rr
+    username: websocket_28rr_user
+    password: aCjEPmKdcSFhtKWFKpZPZiBAV46VKfGE
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+    properties:
+        hibernate:
+          format_sql: true
+    database: postgresql
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8088
